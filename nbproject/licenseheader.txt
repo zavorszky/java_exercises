@@ -1,0 +1,7 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Szabadon felhasználható
+<#if licenseLast??>
+${licenseLast}
+</#if>
