@@ -21,9 +21,11 @@ public class Java_exercise_0 {
         System.out.println("java_exercise_4\tMűvelete számok között");
         System.out.println("java_exercise_5\tRendezés (buborék?)");
         System.out.println("java_exercise_6\tBit műveletek");
+
         System.out.println("java_exercise_7\tGyakorlat 5.6.a");
         System.out.println("\tTérfogat számítás");
         System.out.println("\tMásodfokú egyenlet gyökei");
+        System.out.println("\tFenyőfa");
     }
 
 }

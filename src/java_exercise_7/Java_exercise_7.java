@@ -44,6 +44,26 @@ public class Java_exercise_7 {
             System.out.println("\tx₂=" + mfe.x2());
         }
 
+        MasodfokuEgyenletV2 mfeV2 = new MasodfokuEgyenletV2();
+        mfeV2.setABC(1, -5, 6);
+
+        System.out.println("\n");
+        System.out.println("Másodfokú egyenlet megoldása. V2 változat");
+        System.out.println(mfe.egyenlet);
+        System.out.println("Paraméterek:");
+        System.out.println("\ta=" + mfe.getA());
+        System.out.println("\tb=" + mfe.getB());
+        System.out.println("\tc=" + mfe.getC());
+        if (mfe.diszkriminans() < 0) {
+            System.out.println("Nincs valós gyök.");
+        } else if (mfe.diszkriminans() == 0) {
+            System.out.println("(gy valős gyök van, x=" + mfe.x1());
+        } else {
+            System.out.println("Két valős gyök van:");
+            System.out.println("\tx₁=" + mfe.x1());
+            System.out.println("\tx₂=" + mfe.x2());
+        }
+
     }
 
 }
