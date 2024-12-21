@@ -5,6 +5,8 @@ package java_exercise_6;
 
 /**
  *
+ * Nagy Gusztáv: Java programozás 39. oldal
+ * 
  * @author dady
  */
 public class Java_exercise_6 {

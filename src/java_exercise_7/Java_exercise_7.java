@@ -5,6 +5,8 @@ package java_exercise_7;
 
 /**
  *
+ * Nagy Gusztáv: Java programozás 47. oldal
+ * 
  * @author dady
  */
 public class Java_exercise_7 {
