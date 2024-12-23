@@ -23,6 +23,7 @@ Nagy Gusztáv: Java programozás
 |java_exercise_8|Vezérlési szerkezetek|
 | * | *while(...) {...}*|
 | * | *do {...} while(...)*|
+| * | *switch (...) {...}*|
 
 ## Szerző
 
