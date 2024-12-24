@@ -19,11 +19,13 @@ Nagy Gusztáv: Java programozás
 |java_exercise_7|Gyakorlat 5.6.|
 | * |Térfogat számítás|
 | * |Másodfokú egyenlet gyökei|
-| * |tFenyőfa|
+| * |Fenyőfa|
 |java_exercise_8|Vezérlési szerkezetek|
-| * | *while(...) {...}*|
-| * | *do {...} while(...)*|
-| * | *switch (...) {...}*|
+| * |*while(...) {...}*|
+| * |*do {...} while(...)*|
+| * |*switch (...) {...}*|
+|java_exercise_9|Gyakorlat 6.7|
+| * |Legnagyobb közös osztó (lnko(...)) vagy Greatest common divisor (GCD)|
 
 ## Szerző
 

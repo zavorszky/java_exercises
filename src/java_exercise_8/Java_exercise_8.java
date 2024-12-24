@@ -81,6 +81,7 @@ public class Java_exercise_8 {
     public static void main(String[] args) {
         String strSource = "Copy this string until you encounter the letter 'g'.";
 
+        // --------------------------
         System.out.println("--1--");
 
         StringBuffer strTarget = new StringBuffer();
@@ -95,7 +96,7 @@ public class Java_exercise_8 {
         System.out.println("Forrás:\t" + strSource);
         System.out.println("Cél:\t" + strTarget);
 
-        //
+        // --------------------------
         System.out.println("\n--2--");
 
         StringBuffer strTarget2 = new StringBuffer();
@@ -109,7 +110,7 @@ public class Java_exercise_8 {
 
         System.out.println("Cél2:\t" + strTarget2);
 
-        //
+        // --------------------------
         System.out.println("\n--3--");
 
         int[] arrayOfInts = {32, 87, 3, 589, 12, 1076, 2000, 8, 622, 127};
@@ -119,7 +120,7 @@ public class Java_exercise_8 {
         }
         System.out.println();
 
-        //
+        // --------------------------
         System.out.println("\n--4--");
 
         int year = 2000;
@@ -128,6 +129,36 @@ public class Java_exercise_8 {
 
         Month month2 = Month.FEB;
         System.out.println("év:" + year + ", hónap:" + month2 + ": napok száma=" + numDaysInTheMonth2(year, month2));
+
+        // --------------------------
+        System.out.println("\n--5--");
+
+        int[][] array2DOfInts = {
+            {32, 87, 3, 589},
+            {12, 1076, 2000, 8},
+            {622, 127, 77, 955}};
+
+        int searchFor = 12;
+
+        int ii = -1;
+        int jj = -1;
+        boolean ll = false;
+        xxx:
+        for (ii = 0; ii < array2DOfInts.length; ii++) {
+            for (jj = 0; jj < array2DOfInts[ii].length; jj++) {
+                if (array2DOfInts[ii][jj] == searchFor) {
+                    ll = true;
+                    // Kiugrás egyszerre több (for) blokkból.
+                    break xxx;
+                }
+            }
+        }
+        if (ll) {
+            System.out.println("Megvan a " + searchFor + " érték. ii=" + ii + ", jj=" + jj);
+        } else {
+            System.out.println("A(z) " + searchFor + " érték nincs a mátrixban.");
+        }
+
     }
 
 }
