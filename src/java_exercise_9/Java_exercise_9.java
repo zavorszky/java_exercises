@@ -17,7 +17,7 @@ public class Java_exercise_9 {
      */
     public static void main(String[] args) {
         LNKO lnko = new LNKO();
-        lnko.elokeszites(12, -15);
+        lnko.elokeszites(12, 15);
         if (!lnko.getElokeszitve()) {
             System.out.println("Figyelem, az elokészítés nem sikerült!");
             System.out.println(lnko.getHibauzenet());

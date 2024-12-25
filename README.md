@@ -26,6 +26,7 @@ Nagy Gusztáv: Java programozás
 | * |*switch (...) {...}*|
 |java_exercise_9|Gyakorlat 6.7|
 | * |Legnagyobb közös osztó (lnko(...)) vagy Greatest common divisor (GCD)|
+| * |A nap sorszáma az évben|
 
 ## Szerző
 
