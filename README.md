@@ -24,9 +24,13 @@ Nagy Gusztáv: Java programozás
 | * |*while(...) {...}*|
 | * |*do {...} while(...)*|
 | * |*switch (...) {...}*|
-|java_exercise_9|Gyakorlat 6.7|
-| * |Legnagyobb közös osztó (lnko(...)) vagy Greatest common divisor (GCD)|
-| * |A nap sorszáma az évben|
+|java_exercise_9  (Gyakorlat 6.7)|Legnagyobb közös osztó (lnko(...)) vagy Greatest common divisor (GCD)|
+|java_exercise_10 (Gyakorlat 6.7)|A nap sorszáma az évben|
+|java_exercise_11 (Gyakorlat 6.7)|Egy szám jegyeinek összege|
+|java_exercise_12| Objektumok használata|
+| * |Pontok és téglalap objektum|
+| * |Egy pont a téglalapon belülvan ? (Gyakorlat 7.7)|
+| * |Egy pont a téglalap melyik csúcsához van a legközelebb ? (Gyakorlat 7.7)|
 
 ## Szerző
 
