@@ -5,7 +5,7 @@ package java_exercise_12;
 
 /**
  *
- *  * Nagy Gusztáv: Java programozás 62. oldal
+ * Nagy Gusztáv: Java programozás 62. oldal
  *
  * @author dady
  */

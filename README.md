@@ -31,6 +31,10 @@ Nagy Gusztáv: Java programozás
 | * |Pontok és téglalap objektum|
 | * |Egy pont a téglalapon belülvan ? (Gyakorlat 7.7)|
 | * |Egy pont a téglalap melyik csúcsához van a legközelebb ? (Gyakorlat 7.7)|
+|java_exercise_13|String, StringBuffer és StringBuilder osztály|
+| * |Karakterek összehasonlítása, vizsgálata|
+| * |Palindrom|
+|java_exercise_14|Teljes file név feldarabolása|
 
 ## Szerző
 
