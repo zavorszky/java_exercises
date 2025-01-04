@@ -35,6 +35,11 @@ Nagy Gusztáv: Java programozás
 | * |Karakterek összehasonlítása, vizsgálata|
 | * |Palindrom|
 |java_exercise_14|Teljes file név feldarabolása|
+|java_exercise_15|Tokenizer (Szavakra bontás)|
+|java_exercise_16|Gyakorlat 8.5|
+| * |Szöveg megfordítás|
+| * |Ugyan az mint fent, de szavanként|
+| * |Egy karakter minden előfordulásának kihagyása egy szövegből|
 
 ## Szerző
 
