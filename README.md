@@ -40,6 +40,9 @@ Nagy Gusztáv: Java programozás
 | * |Szöveg megfordítás|
 | * |Ugyan az mint fent, de szavanként|
 | * |Egy karakter minden előfordulásának kihagyása egy szövegből|
+|java_exercise_17|Számok (float,float) (float,double) összehasonlítása|
+|java_exercise_18|Műveletek float számokkal; paraméterek megadása a NetBeans-ben|
+
 
 ## Szerző
 
