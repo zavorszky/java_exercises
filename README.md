@@ -42,6 +42,12 @@ Nagy Gusztáv: Java programozás
 | * |Egy karakter minden előfordulásának kihagyása egy szövegből|
 |java_exercise_17|Számok (float,float) (float,double) összehasonlítása|
 |java_exercise_18|Műveletek float számokkal; paraméterek megadása a NetBeans-ben|
+|java_exercise_19|Számok, dátumok formázása|
+| * |Egy szám (amount / összeg) formázása|
+| * |Szám formázása pénznemes számmá|
+| * |Szám formázása százalékos számmá|
+| * |Egy **dátum** elemeinek kinyerése, megjelenítése|
+| * |Egy szám formázása minta (pattern) alapján|
 
 
 ## Szerző

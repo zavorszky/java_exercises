@@ -5,7 +5,7 @@ package java_exercise_18;
 
 /**
  *
- * Nagy Gusztáv: Java programozás 83
+ * Nagy Gusztáv: Java programozás 83 oldal.
  *
  * @author dady
  */
