@@ -48,6 +48,7 @@ Nagy Gusztáv: Java programozás
 | * |Szám formázása százalékos számmá|
 | * |Egy **dátum** elemeinek kinyerése, megjelenítése|
 | * |Egy szám formázása minta (pattern) alapján|
+| * |Egy szám titedes és ezres csoportosító jelének változtatása|
 
 
 ## Szerző

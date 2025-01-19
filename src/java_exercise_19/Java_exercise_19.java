@@ -4,8 +4,10 @@
 package java_exercise_19;
 
 import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Calendar;
+import java.util.Locale;
 // import java.text.DecimalFormat;
 
 /**
@@ -68,13 +70,33 @@ public class Java_exercise_19 {
         System.out.println(s);
 
         System.out.println("\n--6--");
-        Double amount2 = new Double(123456.78);
+        Double amount6 = new Double(123456.78);
         String pattern = "###,###.###";
         DecimalFormat myDecimalFormatter = new DecimalFormat(pattern);
-        String amountOut2 = myDecimalFormatter.format(amount2);
-        System.out.println("Eredeti szám (amount2).....:\t" + amount2.toString());
+        String amountOut2 = myDecimalFormatter.format(amount6);
+        System.out.println("Eredeti szám (amount6).....:\t" + amount6.toString());
         System.out.println("Minta (pattern)............:\t" + pattern);
         System.out.println("Formázott szám (amountOut2):\t" + amountOut2);
+
+        System.out.println("\n--7--");
+        // import java.util.Locale;
+        Locale currentLocale = Locale.getDefault();
+        DecimalFormatSymbols unusualSymbols = new DecimalFormatSymbols(currentLocale);
+        unusualSymbols.setDecimalSeparator('|');
+        unusualSymbols.setGroupingSeparator('^');
+
+        String pattern7 = "#,##0.###";
+        DecimalFormat weirdFormatter = new DecimalFormat(pattern7, unusualSymbols);
+        weirdFormatter.setGroupingSize(4);
+
+        String bizareOut = weirdFormatter.format(amount6);
+        System.out.println("Eredeti szám (amount6)....................:\t" + amount6.toString());
+        System.out.println("Formátum patform..........................:\t" + pattern7);
+        System.out.println("A szám csoportosítás-mérete...............:\t" + weirdFormatter.getGroupingSize());
+        System.out.println("A szám csoportosítás-karakter.............:\t" + weirdFormatter.getDecimalFormatSymbols().getGroupingSeparator());
+        System.out.println("A szám decimális elválasztó (tizedes jel).:\t" + weirdFormatter.getDecimalFormatSymbols().getDecimalSeparator());
+        System.out.println("Bizar elválasztó jelek a szám kiírásnál:..:\t" + bizareOut);
+
     }
 
 }
