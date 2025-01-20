@@ -96,7 +96,13 @@ public class Java_exercise_19 {
         System.out.println("A szám csoportosítás-karakter.............:\t" + weirdFormatter.getDecimalFormatSymbols().getGroupingSeparator());
         System.out.println("A szám decimális elválasztó (tizedes jel).:\t" + weirdFormatter.getDecimalFormatSymbols().getDecimalSeparator());
         System.out.println("Bizar elválasztó jelek a szám kiírásnál:..:\t" + bizareOut);
-
+        
+        System.out.println("\n--8--");
+        Integer tiz=new Integer(10);
+        Long kilenc=new Long(9);
+        System.out.println(tiz + kilenc);
+        int i=1;
+        System.out.println(i+tiz);
     }
 
 }
