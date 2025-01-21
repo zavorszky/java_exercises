@@ -50,6 +50,7 @@ Nagy Gusztáv: Java programozás
 | * |Egy szám formázása minta (pattern) alapján|
 | * |Egy szám titedes és ezres csoportosító jelének változtatása|
 |java_exercise_20|Tömbök|
+| * |Tömbök tömbje|
 
 ## Szerző
 
