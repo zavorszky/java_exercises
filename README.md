@@ -52,6 +52,9 @@ Nagy Gusztáv: Java programozás
 |java_exercise_20|Tömbök|
 | * |Tömbök tömbje|
 | * |System.arraycopy|
+|java_exercise_21|Szám tömb elemek cserélgetése (gyakorlat 10.6/1)|
+| * |Egy számtömb megfordítása|
+| * |Egy számtömb szomszédos elemeinek megcserélése|
 
 ## Szerző
 
