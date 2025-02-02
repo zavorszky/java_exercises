@@ -1,7 +1,7 @@
 /*
  * Szabadon felhasználható
  */
-package java_excercise_20;
+package java_exercise_20;
 
 /**
  *
@@ -9,7 +9,7 @@ package java_excercise_20;
  *
  * @author dady
  */
-public class Java_excercise_20 {
+public class Java_exercise_20 {
 
     /**
      * @param args the command line arguments

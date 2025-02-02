@@ -6,6 +6,7 @@ package java_exercise_21;
 /**
  *
  * Nagy Gusztáv: Java programozás 98. oldal
+ * (gyakorlat 10.6/2)
  *
  * @author dady
  */

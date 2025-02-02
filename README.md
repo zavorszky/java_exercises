@@ -55,6 +55,8 @@ Nagy Gusztáv: Java programozás
 |java_exercise_21|Szám tömb elemek cserélgetése (gyakorlat 10.6/1)|
 | * |Egy számtömb megfordítása|
 | * |Egy számtömb szomszédos elemeinek megcserélése|
+|java_exercise_22|Magánhangzó számlálás, szó kiválasztás (gyakorlat 10.6/2)|
+|java_exercise_22|Négyzetes mátrix transzponálás (gyakorlat 10.6/3)|
 
 ## Szerző
 
