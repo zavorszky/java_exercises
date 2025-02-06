@@ -49,4 +49,47 @@ public class MatrixKezelo {
         }
     }
 
+    public static int[][] getEgysegmatrix(int p_meret) {
+
+        if (p_meret < 1) {
+            System.out.println("Figyelem, az egységmátrix mérete nem lehet 1-nél kisebb.");
+            int[][] szellemMatrix = {
+                {}
+            };
+            return szellemMatrix;
+        }
+        int[][] valaszMatrix = new int[p_meret][];
+        for (int i = 0; i < p_meret; i++) {
+            valaszMatrix[i] = new int[p_meret];
+            for (int j = 0; j < p_meret; j++) {
+                valaszMatrix[i][j] = (i == j ? 1 : 0);
+            }
+        }
+        return valaszMatrix;
+    }
+
+    public static int[][] getTriangulumMatrix(boolean p_also, int p_meret, int p_atloElem, int p_haromszogElem) {
+        if (p_meret < 1) {
+            System.out.println("Figyelem, a triangulummátrix mérete nem lehet 1-nél kisebb.");
+            int[][] szellemMatrix = {
+                {}
+            };
+            return szellemMatrix;
+        }
+        int[][] valaszMatrix = new int[p_meret][];
+        for (int i = 0; i < p_meret; i++) {
+            valaszMatrix[i] = new int[p_meret];
+            for (int j = 0; j < p_meret; j++) {
+                if (i > j) {
+                    valaszMatrix[i][j] = (p_also ? p_haromszogElem : 0);
+                } else if (i < j) {
+                    valaszMatrix[i][j] = (p_also ? 0 : p_haromszogElem);
+                } else {
+                    valaszMatrix[i][j] = p_atloElem;
+                }
+            }
+        }
+        return valaszMatrix;
+    }
+
 }
