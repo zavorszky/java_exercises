@@ -56,10 +56,11 @@ Nagy Gusztáv: Java programozás
 | * |Egy számtömb megfordítása|
 | * |Egy számtömb szomszédos elemeinek megcserélése|
 |java_exercise_22|Magánhangzó számlálás, szó kiválasztás (gyakorlat 10.6/2)|
-|java_exercise_22|Mátrix műveletek|
+|java_exercise_23|Mátrix műveletek|
 | * |Négyzetes mátrix transzponálás (gyakorlat 10.6/3)|
 | * |Egységmátrix (gyakorlat 10.6/4)|
 | * |Triangulummátrix (gyakorlat 10.6/5)|
+|java_exercise_24|Osztályo/Hitel éves törlesztő részlete|
 
 ## Szerző
 

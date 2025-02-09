@@ -5,7 +5,7 @@ package java_exercise_23;
 
 /**
  *
- * Nagy Gusztáv: Java programozás 98. oldal (gyakorlat 10.6/3)
+ * Nagy Gusztáv: Java programozás 98. oldal (gyakorlat 10.6)
  *
  * @author dady
  */
