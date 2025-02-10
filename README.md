@@ -60,7 +60,9 @@ Nagy Gusztáv: Java programozás
 | * |Négyzetes mátrix transzponálás (gyakorlat 10.6/3)|
 | * |Egységmátrix (gyakorlat 10.6/4)|
 | * |Triangulummátrix (gyakorlat 10.6/5)|
-|java_exercise_24|Osztályo/Hitel éves törlesztő részlete|
+|java_exercise_24|Osztályok...|
+| * |Hitel éves törlesztő részlete|
+| * |Hitel havi törlesztő részlete|
 
 ## Szerző
 

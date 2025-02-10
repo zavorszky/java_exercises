@@ -32,6 +32,8 @@ public class Java_exercise_24 {
         System.out.println("Futamidő [év]: \t" + numFormatter.format(futamidoEv));
         System.out.println("------------");
         System.out.println("Évenként az év végén fizetendő részlet:" + numFormatter.format(Bank.evesReszlet(hitel, evesKamat, futamidoEv)));
+        System.out.println("Havonta a hónap év fizetendő részlet  :" + numFormatter.format(Bank.haviReszlet(hitel, evesKamat, futamidoEv)));
+        System.out.println("FIGYELEM! A bankok másként számolnak és kétszer nyernek...");
 
     }
 
