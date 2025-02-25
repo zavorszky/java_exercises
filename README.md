@@ -63,6 +63,7 @@ Nagy Gusztáv: Java programozás
 |java_exercise_24|Osztályok...|
 | * |Hitel éves törlesztő részlete|
 | * |Hitel havi törlesztő részlete|
+|java_exercise_25|Börtön cellák csiki-csukija... (gyakorlat 11.11/1)|
 
 ## Szerző
 
