@@ -64,6 +64,7 @@ Nagy Gusztáv: Java programozás
 | * |Hitel éves törlesztő részlete|
 | * |Hitel havi törlesztő részlete|
 |java_exercise_25|Börtön cellák csiki-csukija... (gyakorlat 11.11/1)|
+|java_exercise_26|Betű csere-bere... (gyakorlat 11.11/2)|
 
 ## Szerző
 
