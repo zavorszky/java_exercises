@@ -48,9 +48,8 @@ public class Blablagramma {
 
         if (n0 == 2) {
             i = rn_generator.nextInt(2);
-            System.out.println("i="+i);
+            //System.out.println("i="+i);
             if (i == 0) {
-                
                 sb_betu_csere(sb, 0, 1);
             }
             return sb.toString();

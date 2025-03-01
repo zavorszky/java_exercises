@@ -65,6 +65,7 @@ Nagy Gusztáv: Java programozás
 | * |Hitel havi törlesztő részlete|
 |java_exercise_25|Börtön cellák csiki-csukija... (gyakorlat 11.11/1)|
 |java_exercise_26|Betű csere-bere... (gyakorlat 11.11/2)|
+|java_exercise_27|Öröklődés: felülírt és rejtett változók és metódusok|
 
 ## Szerző
 
