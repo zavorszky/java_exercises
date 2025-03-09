@@ -92,6 +92,28 @@ public class Java_exercise_26 {
         stck2.showStack();
         stck1.showStack();
 
+        System.out.println("\n--6a--");
+        Integer i1 = new Integer(1);
+        Integer i2 = new Integer(2);
+        Integer i3 = new Integer(1);
+        System.out.println("i1=" + i1 + ", i2=" + i2 + ", i3=" + i3);
+        System.out.println("");
+        System.out.println("|   | i1| i2| i3|");
+        System.out.println("|===|===|===|===|");
+        System.out.println("|i1 |  " + (i1.equals(i1) ? "y" : "n") + "|  " + (i1.equals(i2) ? "y" : "n") + "|  " + (i1.equals(i3) ? "y" : "n") + "|");
+        System.out.println("|i2 |  " + (i2.equals(i1) ? "y" : "n") + "|  " + (i2.equals(i2) ? "y" : "n") + "|  " + (i2.equals(i3) ? "y" : "n") + "|");
+        System.out.println("|i3 |  " + (i3.equals(i1) ? "y" : "n") + "|  " + (i3.equals(i2) ? "y" : "n") + "|  " + (i3.equals(i3) ? "y" : "n") + "|");
+        System.out.println("|===|===|===|===|");
+
+        System.out.println("\n--6b--");
+        System.out.println("hashCode(i1)=" + i1.hashCode());
+        System.out.println("hashCode(i2)=" + i2.hashCode());
+        System.out.println("hashCode(i3)=" + i3.hashCode());
+
+        System.out.println("\n--6c--");
+        System.out.println("hashCode(\"" + stck1.stack_name + "\")=" + stck1.hashCode());
+        System.out.println("hashCode(\"" + stck2.stack_name + "\")=" + stck2.hashCode());
+        System.out.println("\"" + stck1.stack_name + "\" " + (stck1.equals(stck2) ? "==" : "!=") + " \"" + stck2.stack_name + "~");
     }
 
 }

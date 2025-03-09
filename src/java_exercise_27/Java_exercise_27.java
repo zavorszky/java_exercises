@@ -32,6 +32,42 @@ public class Java_exercise_27 {
         System.out.println("\n--2--");
         Gyerek gy = new Gyerek();
         gy.aMetod();
+
+        System.out.println("\n--3--");
+        System.out.println("The class of the \"myAnimal\" instance:" + myAnimal.getClass().getName());
+        System.out.println("The class of the \"myCat\" instance   :" + myAnimal.getClass().getName());
+
+        try {
+            Animal myDog = myAnimal.getClass().newInstance();
+            System.out.println("\nmyDog...");
+            myDog.hide();
+            myDog.override();
+        } catch (Exception e) {
+            System.out.println("Error in \"newInstance()\" or \"hide()\" or \"override()\".");
+            System.out.println("Error message:" + e.getMessage());
+        }
+
+        System.out.println("\n--4--");
+        //Help: https://www.geeksforgeeks.org/class-forname-method-in-java-with-examples/
+
+        Class txt4a = String.class;
+        System.out.println("txt4a...");
+        System.out.println("\t" + txt4a.toString());
+        System.out.println("\t" + txt4a.getClass().getName());
+
+        try {
+
+            Class txt4b = Class.forName("java.lang.String");
+            //Class txt4b = Class.forName("String"); // NEM JÓ
+            System.out.println("txt4b...");
+            System.out.println("\t" + txt4b.toString());
+            System.out.println("\t" + txt4b.getClass().getName());
+        } catch (Exception e) {
+            System.out.println("Error in \'Class.forName(\"String\")\' : " + e);
+        }
+
+        System.out.println("I don't understand what it's good for yet.\n"
+                + "I can't give an example.");
     }
 
 }
