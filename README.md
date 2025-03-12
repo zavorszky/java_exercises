@@ -69,9 +69,10 @@ Nagy Gusztáv: Java programozás
 | * |A "super" utasítás egy konstruktorban|
 | * |Klónozás, egy telefon adatainak klónozása|
 | * |Klónozás, egy verem klónozása|
-| * |.equals(), .hashCode|
+| * |.equals(), .hashCode()|
 |java_exercise_27|Öröklődés: felülírt és rejtett változók és metódusok|
 | * |.getClass() .getName() .forName()|
+|java_exercise_28|Jármű, autó, csónak, PSZH osztályok (gyakorlat 12.7)|
 
 ## Szerző
 
